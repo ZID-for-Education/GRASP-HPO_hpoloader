@@ -1,8 +1,7 @@
 import numpy as np
 from ray import tune
 from ray.train import RunConfig
-from ray.tune.integration.xgboost import TuneReportCheckpointCallback
-from ray.tune.schedulers import ASHAScheduler
+
 
 class grid():
     def __init__(self):

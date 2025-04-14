@@ -1,9 +1,7 @@
 import numpy as np
 from ray import tune
 from ray.train import RunConfig
-from ray.tune.integration.xgboost import TuneReportCheckpointCallback
 from ray.tune.schedulers import ASHAScheduler
-from ray.tune.search import ConcurrencyLimiter
 from ray.tune.search.hyperopt import HyperOptSearch
 
 class hyperopt():
