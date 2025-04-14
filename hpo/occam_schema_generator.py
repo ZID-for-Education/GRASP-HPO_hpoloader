@@ -16,6 +16,6 @@ for importer, modname, ispkg in iter_modules(hpo_mods.__path__):
                                         "default": False,
                                         "description": f"Use {modname} for hyperparameter optimization."}
 
-filename = 'occam_schema_' + str(time.time()) + '.json'
+filename = 'occam_schema' + '.json'
 with open(filename, 'w') as f:
     json.dump(occam_schema, f, indent=4)
