@@ -1,0 +1,41 @@
+{
+    "hpo": {
+        "label": "HPO Algorithms",
+        "bohb": {
+            "label": "bohb",
+            "type": "boolean",
+            "default": false,
+            "description": "Use bohb for hyperparameter optimization."
+        },
+        "grasp": {
+            "label": "grasp",
+            "type": "boolean",
+            "default": false,
+            "description": "Use grasp for hyperparameter optimization."
+        },
+        "grid": {
+            "label": "grid",
+            "type": "boolean",
+            "default": false,
+            "description": "Use grid for hyperparameter optimization."
+        },
+        "hyperband": {
+            "label": "hyperband",
+            "type": "boolean",
+            "default": false,
+            "description": "Use hyperband for hyperparameter optimization."
+        },
+        "hyperopt": {
+            "label": "hyperopt",
+            "type": "boolean",
+            "default": false,
+            "description": "Use hyperopt for hyperparameter optimization."
+        }
+    },
+    "iterations": {
+        "label": "Iterations",
+        "type": "int",
+        "default": 100,
+        "description": "Number of iterations for hyperparameter optimization."
+    }
+}
